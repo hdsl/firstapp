@@ -1,0 +1,11 @@
+<h1>Another#index</h1>
+<p>Find me in app/views/another/index.html.erb</p>
+
+<p><%= @greeting %></p>
+<p><%= @sum %></p>
+
+<%= link_to 'Go to another#edit', {:controller => 'another', :action => 'edit'}, method: :get %>
+
+<%= button_to 'Go to another#edit', {:controller => 'another', :action => 'edit'}, method: :get %>
+
+<h2><%= link_to 'Go to another#edit', {:controller => 'another', :action => 'edit', :pickcolor => 'green', :pickcar => 'corolla', :id=> 1}, method: :get %></h2>
